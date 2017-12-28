@@ -1,0 +1,7 @@
+[package]
+authors = ["pnlybubbles <pnlybubbles@gmail.com>"]
+name = "yew-befunge"
+version = "0.1.0"
+
+[dependencies]
+yew = { git = "https://github.com/DenisKolodin/yew.git" }
