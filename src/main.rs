@@ -310,7 +310,10 @@ fn commands(cell: char, cursor: (i64, i64), b: &mut Befunge) {
 fn view(model: &Model) -> Html<Msg> {
   html! {
     <div class="main", >
-      <h1>{ "Befunge" }</h1>
+      <h1 class="title", >
+        { "Befunge" }
+        <span class="note", >{ "Yew (Rust wasm32-unknown-emscripten)" }</span>
+      </h1>
       <div>
         <textarea
           class="text",
